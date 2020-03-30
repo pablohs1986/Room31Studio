@@ -57,7 +57,7 @@ h1 {
   color: #000000;
   border: 0;
   background-color: #C24564;
-  font-family: 'robotoSlab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
@@ -72,11 +72,11 @@ h1 {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: #fff;
-  font-family: 'robotoSlab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -89,7 +89,7 @@ h1 {
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #000000;
+    background-color: #26292E;
   }
   #mainNav .navbar-brand {
     font-size: 21px;
@@ -101,7 +101,7 @@ h1 {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #131614;
+    background-color: #26292E;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -120,7 +120,7 @@ body {
 .divider-white {
   text-align: center !important;
   width: 100% !important;
-  background-color: #fff;
+  background-color: #000000;
   height: 1px;
   margin-top: -2rem;
   margin-bottom: 5rem;
@@ -157,46 +157,49 @@ body {
  .about-section{
    padding: 5rem 0 0 0;
    height: 800px;
-   background-color: #26292E;
+   background-color: #fff;
  }
 
  .about-section h1{
   font-family: "robotoSlab";
-  font-size: 60px;
-  color: #fff;
+  font-size: 30px;
+  color: #000000;
   text-align: left;
 }
 
 .about-section p{
   font-size: 20px;
-  color: #fff;
+  color: #000000;
 }
+
+
 
 /* Studio */
 
 .studio-section{
   padding: 5rem 0 0 0;
-  height: 900px;
-  background-color: #26292E;
+  height: 1000px;
+  background-color: #fff;
 }
 
 .studio-section h1{
 font-family: "robotoSlab";
- font-size: 60px;
- color: #fff;
+ font-size: 30px;
+ color: #000000;
  text-align: left;
 }
 
 .studio-section h2{
   font-family: "robotoBold";
   font-size: 20px;
-  color: #fff;
+  color: #000000;
+  text-transform: uppercase;
  }
 
  .studio-section p{
   padding-top: 1rem;
   font-size: 20px;
-  color: #fff;
+  color: #000000;
  }
 
  /* Services */
@@ -204,12 +207,31 @@ font-family: "robotoSlab";
 .services-section{
   padding: 5rem 0 0 0;
   height: 800px;
-  background-color: #26292E;
+  background-color: #fff;
 }
 
 .services-section h1{
  font-family: "robotoSlab";
- font-size: 60px;
- color: #fff;
+ font-size: 30px;
+ color: #000000;
  text-align: left;
 }
+
+.services-section i{
+  color: #000000;
+  text-align: center;
+ }
+
+
+.services-section #mezcla{
+  transform: rotate(90deg);
+}
+
+.services-section h2{
+  font-family: "robotoBold";
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 25px 0 10px 0;
+ }
+ 
