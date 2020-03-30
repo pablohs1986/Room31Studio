@@ -164,7 +164,8 @@ body {
   font-family: "robotoSlab";
   font-size: 30px;
   color: #000000;
-  text-align: left;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .about-section p{
@@ -178,15 +179,16 @@ body {
 
 .studio-section{
   padding: 5rem 0 0 0;
-  height: 1000px;
-  background-color: #fff;
+  height: 900px;
+  background-color:  #fff;
 }
 
 .studio-section h1{
 font-family: "robotoSlab";
  font-size: 30px;
  color: #000000;
- text-align: left;
+ text-align: center;
+ text-transform: uppercase;
 }
 
 .studio-section h2{
@@ -202,11 +204,42 @@ font-family: "robotoSlab";
   color: #000000;
  }
 
+/* Equipment */
+
+.equipment-section{
+  padding: 5rem 0 0 0;
+  height: 900px;
+  background-color: #fff;
+}
+
+.equipment-section h1{
+font-family: "robotoSlab";
+ font-size: 30px;
+ color: #000000;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.equipment-section h2{
+  font-family: "robotoBold";
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: left;
+ }
+
+ .equipment-section li{
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+ }
+
+
  /* Services */
 
 .services-section{
   padding: 5rem 0 0 0;
-  height: 800px;
+  height: 900px;
   background-color: #fff;
 }
 
@@ -214,14 +247,14 @@ font-family: "robotoSlab";
  font-family: "robotoSlab";
  font-size: 30px;
  color: #000000;
- text-align: left;
+ text-align: center;
+ text-transform: uppercase;
 }
 
 .services-section i{
   color: #000000;
   text-align: center;
  }
-
 
 .services-section #mezcla{
   transform: rotate(90deg);
@@ -235,3 +268,66 @@ font-family: "robotoSlab";
   padding: 25px 0 10px 0;
  }
  
+ .services-section p{
+  padding-top: 1rem;
+  font-size: 20px;
+  color: #000000;
+ }
+
+
+ /* Works */
+
+.works-section{
+  padding: 5rem 0 0 0;
+  height: 900px;
+  background-color: #fff;
+}
+
+.works-section h1{
+ font-family: "robotoSlab";
+ font-size: 30px;
+ color: #000000;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.works-section i{
+  color: #000000;
+  text-align: center;
+ }
+
+.works-section #mezcla{
+  transform: rotate(90deg);
+}
+
+.works-section h2{
+  font-family: "robotoBold";
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 25px 0 10px 0;
+ }
+ 
+ .works-section p{
+  padding-top: 1rem;
+  font-size: 20px;
+  color: #000000;
+ }
+
+ .works-section .flex-column { 
+  max-width : 324px;
+   } 
+
+  .works-section #gallery { 
+      background: #f9f9f9; 
+  } 
+
+  .works-section img { 
+      margin: 5px; 
+      border: 1px, solid, #000000;
+  } 
+
+  .works-section .scale {
+    transform: scaleY(1.05);
+    padding-top: 5px; 
+}
