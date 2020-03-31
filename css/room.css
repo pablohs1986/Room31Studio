@@ -314,9 +314,11 @@ font-family: "robotoSlab";
   color: #000000;
  }
 
+ 
  .works-section .flex-column { 
   max-width : 324px;
    } 
+
 
   .works-section #gallery { 
       background: #f9f9f9; 
@@ -324,10 +326,42 @@ font-family: "robotoSlab";
 
   .works-section img { 
       margin: 5px; 
-      border: 1px, solid, #000000;
+      align-content: center;
   } 
 
   .works-section .scale {
     transform: scaleY(1.05);
     padding-top: 5px; 
 }
+
+
+
+.works-section .img-holder {
+  position: relative;
+}
+
+.works-section button{
+  border: 0px;
+  background-color: transparent;
+}
+.works-section i{
+  text-align: center;
+  background: transparent;
+  opacity: 0.4;
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.works-section i:hover {
+  color: #000000;
+  opacity: 0.5;
+
+}
+
+
