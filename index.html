@@ -363,21 +363,106 @@
     </div>
   </section>
 
-  <!-- Contact 
+  <!-- Contact --> 
   <section class="contact-section" id="contact">
     <div class="container h-100 mx-auto text-center">
-      
-      
+      <h1 class="mx-auto mb-5">Contacto</h1>
+      <hr class="divider-white"></hr>
+
+      <div class=row>
+        <div class="col-sm-12 text-center">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor, introduce tu nombre.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor, introduce tu email.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Por favor, introduce tu número de teléfono">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Tu mensaje *" required="required" data-validation-required-message="Por favor, introduce tu mensaje"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-sm-4 text-center">
+          <h2><i class="fas fa-map-marker fa-2x"></i></h2>
+          <p class="text-center">
+            Plaza Primo de Rivera 1, Entreplanta <br/> Nº31 <br/>Oviedo (Asturias)
+          </p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <h2><i class="fas fa-envelope fa-2x"></i></h2>
+          <p class="text-center">
+            <a href="mailto:#">email@email.com</a>
+          </p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <h2><i class="fas fa-phone fa-2x"></i></h2>
+          <p class="text-center">
+            666666666
+          </p>
+        </div>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-lg-12 text-center">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.7219931184795!2d-5.852459684643371!3d43.367683779132086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd368cfbe431d3b7%3A0x29774b33b12bd61c!2sPlaza%20Primo%20de%20Rivera!5e1!3m2!1ses!2ses!4v1585669917803!5m2!1ses!2ses" width="1290" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>-->
+  </section>
 
 
-<!-- Footer 
-<footer class="small text-center text-white-50">
+<!-- Footer --> 
+<footer class="small text-center">
+  <div class="up d-flex justify-content-center mb-5">
+    <a href="#page-top" class="mx-2 js-scroll-trigger">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <div class="social d-flex justify-content-center">
+    <a href="https://www.linkedin.com/in/pabloherrero1986/" target="_blank" class="mx-3">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/pablohs1986" target="_blank" class="mx-3">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://stackoverflow.com/story/pabloherrero" target="_blank" class="mx-3">
+      <i class="fab fa-stack-overflow"></i>
+    </a>
+    <a href="https://twitter.com/pablohs1986/" target="_blank" class="mx-3">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
+
   <div class="container text-secondary mt-5">
     &copy; 2020 Room 31 Studio
   </div>
-</footer>-->
+</footer>
 
     <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
