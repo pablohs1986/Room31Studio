@@ -46,7 +46,7 @@ h1 {
 /* Nav */
 
 #mainNav {
-  background-color: #212529;
+  background-color: #fff;
 }
 
 #mainNav .navbar-toggler {
@@ -56,18 +56,18 @@ h1 {
   text-transform: uppercase;
   color: #000000;
   border: 0;
-  background-color: #C24564;
+  background-color: #7C7C7C;
   font-family: 'roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #000000;
   font-family: 'robotoSlab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 21px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #C24564;
+  color: #7C7C7C;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -75,12 +75,12 @@ h1 {
   font-weight: 600;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #fff;
+  color: #000000;
   font-family: 'roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #C24564;
+  color: #7C7C7C;
 }
 
 @media (min-width: 992px) {
@@ -89,26 +89,35 @@ h1 {
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #26292E;
+    background-color: #fff;
   }
   #mainNav .navbar-brand {
     font-size: 21px;
+    font-variant: small-caps;
+    transition: all 0.3s;
+    color: #000000;
+
+  }
+
+  #mainNav strong {
+    font-size: 30px;
+    color: #000000;
     transition: all 0.3s;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #26292E;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
   }
 }
-
 
 /* Body */
 body {
@@ -133,9 +142,9 @@ body {
   height: auto !important;
   min-height: 100vh !important;
   padding: 0rem 0;
-  background-image: url("/img/wall.png");
+  background-color: #fff;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   
 }
@@ -147,20 +156,23 @@ body {
  margin-top: 120px;
 }
 
+
+
 .masthead .btn{
   margin-top: 40px;
  }
 
- /* About section */
-
+ /* About */
  .about-section{
    padding: 5rem 0 0 0;
    height: 800px;
    background-color: #fff;
+ 
+
  }
 
  .about-section h1{
-  font-family: "robotoSlab";
+  font-family: "robotoBold";
   font-size: 30px;
   color: #000000;
   text-align: center;
@@ -175,7 +187,6 @@ body {
 
 
 /* Studio */
-
 .studio-section{
   padding: 5rem 0 0 0;
   height: 900px;
@@ -204,7 +215,6 @@ font-family: "robotoSlab";
  }
 
 /* Equipment */
-
 .equipment-section{
   padding: 5rem 0 0 0;
   height: 900px;
@@ -235,7 +245,6 @@ font-family: "robotoSlab";
 
 
  /* Services */
-
 .services-section{
   padding: 5rem 0 0 0;
   height: 900px;
@@ -275,7 +284,6 @@ font-family: "robotoSlab";
 
 
  /* Works */
-
 .works-section{
   padding: 5rem 0 0 0;
   height: 1700px;
@@ -374,6 +382,14 @@ font-family: "robotoSlab";
   height: 450px;
 }
 
+.contact-section h1{
+  font-family: "robotoSlab";
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
 .contact-section h2{
   font-family: "robotoBold";
   font-size: 20px;
@@ -389,7 +405,7 @@ font-family: "robotoSlab";
 
  /* Footer */
 footer{
-  background-color: #212529 !important;
+  background-color: #000000 !important;
   padding-bottom: 20px;
 }
 
