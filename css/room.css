@@ -89,7 +89,7 @@ h1 {
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #fff;
+    background-color: #fff
   }
   #mainNav .navbar-brand {
     font-size: 21px;
@@ -401,6 +401,10 @@ font-family: "robotoSlab";
   font-family: "roboto";
   font-size: 20px;
   color: #000000;
+ }
+
+ .contact-section #message{
+   height: 225px;
  }
 
  /* Footer */
