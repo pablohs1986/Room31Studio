@@ -40,3 +40,16 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+
+
+function expand() {
+  var x = document.getElementById("navbarResponsive");
+  if(menu.style.display == "block") { // if is menuBox displayed, hide it
+    menu.style.display = "none";
+  }
+  else { // if is menuBox hidden, display it
+    menu.style.display = "block";
+  }
+}
+
