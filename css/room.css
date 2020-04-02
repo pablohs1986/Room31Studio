@@ -44,81 +44,22 @@ h1 {
 }
 
 /* New nav */
-.navbar  {
+
+.navbar {
   background-color: transparent;
 }
 
 /* Burger */
-.navbar-toggler {
-  border: none;
-  background: transparent !important;
-}
-
-.navbar-toggler:focus {
-  outline: none;
-  background: transparent !important;
-}
-
-.navbar-toggler .icon-bar {
-  background-color: rgb(0, 0, 0);
-  transform: rotate(0deg) translate(0px, 0px);
-  transition: ease all .2s;
-}
-
-.navbar-toggler .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-
-.navbar-toggler .icon-bar+.icon-bar {
-  margin-top: 4px;
-}
-
-.icon-bar:nth-child(2) {
-  width: 16px;
-  transition: ease all .2s;
-}
-
-.navbar-toggler:hover>.icon-bar:nth-child(2) {
-  width: 22px;
-  transition: ease all .2s;
-}
-
-.navbar-toggler:active>.icon-bar:nth-child(2) {
-  width: 22px;
-  transition: ease all .2s;
-}
-
-.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 4px);
-  transition: ease all .2s;
-}
-
-.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
-  opacity: 0;
-  transition: ease all .2s;
-}
-
-.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
-  transform: rotate(-45deg) translate(4px, -4px);
-  transition: ease all .2s;
-}
-/* /Burger */
-
-#mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: #000000;
-  border: 1.2px;
+.hamburger{
   border-style: solid;
   border-color: #000000;
-  background-color: transparent;
-  font-family: 'roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  border-width: 1px;
 }
+
+.navbar button:focus{
+  outline:0;
+}
+/* /Burger */
 
 #mainNav .navbar-brand {
   color: #000000;
@@ -127,19 +68,16 @@ h1 {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: rgb(255, 255, 255);
+  color: #4d4d4d;
 }
 
 li a:focus{
   background-color: #000000;
 }
 
-
-
 #mainNav .navbar-nav {
   width: 100%;
-  height: 100vh;
- 
+  height: 85vh;
   text-align: end;
   background-color: #000000;
 }
@@ -147,94 +85,12 @@ li a:focus{
 #mainNav a{
   font-size: 60px;
   letter-spacing: 0.0625em;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
   color: #ffffff;
   font-family: 'robotoBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
 }
 
-/* Nav 
-
-#mainNav {
-  background-color: #fff;
-}
-
-#mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: #000000;
-  border: 1.2px;
-  border-style: solid;
-  border-color: #000000;
-  background-color: transparent;
-  font-family: 'roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-#mainNav .navbar-brand {
-  color: #000000;
-  font-family: 'robotoSlab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 21px;
-}
-
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #7C7C7C;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 30px;
-  font-weight: 600;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: #fff;
-  font-family: 'robotoBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  text-align: end;
-  background-color: #000000;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #7C7C7C;
-}
-
-#mainNav .nav-link{
- height: 50px;
-}
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-
-  }
-  #mainNav .navbar-brand {
-    font-size: 21px;
-    font-variant: small-caps;
-    transition: all 0.3s;
-    color: #000000;
-
-  }
-
-  #mainNav strong {
-    font-size: 30px;
-    color: #000000;
-    transition: all 0.3s;
-  }
-
-  #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #fff;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
-  }
-}*/
 
 /* Body */
 body {
@@ -242,6 +98,9 @@ body {
   letter-spacing: 0.0625em;
 }
 
+#page-top1 {
+  padding-top: 5rem;
+}
 
 
 /* Dividers */
@@ -268,25 +127,23 @@ body {
   
 }
 
-
-
 .masthead img{
  height: 450px !important;
  margin-top: 120px;
 }
 
-
+.masthead button:focus{
+  outline:0;
 
 .masthead .btn{
   margin-top: 40px;
  }
 
  /* About */
- .about-section{
+ .about-section {
    padding: 5rem 0 0 0;
    height: 800px;
    background-color: #fff;
- 
 
  }
 

@@ -45,11 +45,11 @@
 
 function expand() {
   var x = document.getElementById("navbarResponsive");
-  if(menu.style.display == "block") { // if is menuBox displayed, hide it
-    menu.style.display = "none";
+  if(navbarResponsive.style.display == "block") { // if is menuBox displayed, hide it
+    navbarResponsive.style.display = "none";
   }
   else { // if is menuBox hidden, display it
-    menu.style.display = "block";
+    navbarResponsive.style.display = "block";
   }
 }
 
