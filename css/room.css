@@ -46,7 +46,7 @@ h1 {
 /* New nav */
 
 .navbar {
-  background-color: transparent;
+  background-color: #fff;
 }
 
 /* Burger */
@@ -65,6 +65,7 @@ h1 {
   color: #000000;
   font-family: 'robotoSlab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 21px;
+  width: 130px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -77,19 +78,61 @@ li a:focus{
 
 #mainNav .navbar-nav {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   text-align: end;
   background-color: #000000;
 }
 
 #mainNav a{
   font-size: 60px;
-  letter-spacing: 0.0625em;
-  padding: 0px 0px 10px 0px;
+  letter-spacing: 0.0125em;
+  padding: 0px 5px 0px 0px;
   color: #ffffff;
   font-family: 'robotoBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-
 }
+
+#mainNav a:hover {
+  color: #4d4d4d;
+  background: transparent;
+}
+
+#mainNav a:active {
+  color: #fff;
+}
+
+#socialGroup {
+  padding: 0px 20px 0px 0px !important;
+  margin: 0px 0px 0px 0px !important;
+}
+
+#social {
+  padding: 0px 0px 0px 0px !important;
+  margin: 0px 0px 0px 0px !important;
+}
+
+#social .fab{
+  font-size: 25px;
+  letter-spacing: 0em;
+  color: #fff;
+  padding: 0px 0px 0px 0px !important;
+  margin: 0px 0px 0px 0px !important;
+}
+
+#social .fab:hover {
+  color: #4d4d4d;
+  background: transparent;
+}
+
+#social .fab:active {
+  color: #fff;
+}
+
+#social a:focus, a:hover {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+
 
 
 /* Body */
@@ -98,10 +141,9 @@ body {
   letter-spacing: 0.0625em;
 }
 
-#page-top1 {
-  padding-top: 5rem;
+#generalPadding {
+  padding-top: 0.5rem;
 }
-
 
 /* Dividers */
 .divider-white {
@@ -109,8 +151,8 @@ body {
   width: 100% !important;
   background-color: #000000;
   height: 1px;
-  margin-top: -2rem;
-  margin-bottom: 5rem;
+  margin-top: -3.3rem;
+  margin-bottom: 4rem;
 }
 
 /* Header */
@@ -122,36 +164,43 @@ body {
   padding: 0rem 0;
   background-color: #fff;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
   
 }
 
+
+
 .masthead img{
- height: 450px !important;
- margin-top: 120px;
+ height: 500px !important;
+ margin-top: 80px;
 }
 
 .masthead button:focus{
   outline:0;
+}
 
 .masthead .btn{
   margin-top: 40px;
  }
 
- /* About */
- .about-section {
+ /* About section */
+
+ .about-section{
    padding: 5rem 0 0 0;
    height: 800px;
    background-color: #fff;
-
  }
 
  .about-section h1{
   font-family: "robotoBold";
-  font-size: 30px;
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+
   color: #000000;
-  text-align: center;
+  line-height: 10rem;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -159,8 +208,6 @@ body {
   font-size: 20px;
   color: #000000;
 }
-
-
 
 /* Studio */
 .studio-section{
@@ -170,11 +217,15 @@ body {
 }
 
 .studio-section h1{
-font-family: "robotoSlab";
- font-size: 30px;
- color: #000000;
- text-align: center;
- text-transform: uppercase;
+  font-family: "robotoBold";
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  line-height: 10rem;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .studio-section h2{
@@ -191,6 +242,7 @@ font-family: "robotoSlab";
  }
 
 /* Equipment */
+
 .equipment-section{
   padding: 5rem 0 0 0;
   height: 900px;
@@ -198,11 +250,15 @@ font-family: "robotoSlab";
 }
 
 .equipment-section h1{
-font-family: "robotoSlab";
- font-size: 30px;
- color: #000000;
- text-align: center;
- text-transform: uppercase;
+  font-family: "robotoBold";
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  line-height: 10rem;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .equipment-section h2{
@@ -221,6 +277,7 @@ font-family: "robotoSlab";
 
 
  /* Services */
+
 .services-section{
   padding: 5rem 0 0 0;
   height: 900px;
@@ -228,11 +285,15 @@ font-family: "robotoSlab";
 }
 
 .services-section h1{
- font-family: "robotoSlab";
- font-size: 30px;
- color: #000000;
- text-align: center;
- text-transform: uppercase;
+  font-family: "robotoBold";
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  line-height: 10rem;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .services-section i{
@@ -260,6 +321,7 @@ font-family: "robotoSlab";
 
 
  /* Works */
+
 .works-section{
   padding: 5rem 0 0 0;
   height: 1700px;
@@ -267,11 +329,15 @@ font-family: "robotoSlab";
 }
 
 .works-section h1{
- font-family: "robotoSlab";
- font-size: 30px;
- color: #000000;
- text-align: center;
- text-transform: uppercase;
+  font-family: "robotoBold";
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  line-height: 10rem;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .works-section i{
@@ -359,12 +425,16 @@ font-family: "robotoSlab";
 }
 
 .contact-section h1{
-  font-family: "robotoSlab";
-  font-size: 30px;
+  font-family: "robotoBold";
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+
   color: #000000;
-  text-align: center;
+  line-height: 10rem;
+  text-align: left;
   text-transform: uppercase;
- }
+}
 
 .contact-section h2{
   font-family: "robotoBold";
@@ -379,63 +449,15 @@ font-family: "robotoSlab";
   color: #000000;
  }
 
- .contact-section #message{
-   height: 225px;
- }
 
- /* Footer */
+
+/* Footer */
 footer{
-  background-color: #000000 !important;
-  padding-bottom: 20px;
+  background-color: #ffffff !important;
+  margin-bottom: 0px;
 }
 
- .up a {
-  font-size: 20px;
-  text-align: center;
-  width: 45px;
-  background: #F2F2F2;
-  color: #000000;
-  line-height: 3rem;
-  color:#000000;
-  margin-bottom: -35px;
-  position: relative;
-  bottom: 26px !important;
-}
 
-.up a:hover {
-  color: #000000;
-  background: #fff;
-}
 
-.up a:active {
-  color:#000000;
-}
 
-footer .social a {
-  font-size: 20px;
-  text-align: center;
-  width: 50px;
-  background: #959FA6;
-  border-radius: 50px;
-  color: #fff;
-  line-height: 3.2rem;
-  color: #fff;
-}
 
-footer .social a:hover {
-  color: #000000;
-  background: #fff;
-}
-
-footer .social a:active {
-  color: #fff;
-}
-
-footer a {
-  color: #959FA6;
-}
-
-footer a:focus, a:hover {
-  text-decoration: none;
-  color: #737373;
-}
