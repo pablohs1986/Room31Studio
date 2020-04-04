@@ -500,11 +500,16 @@ body {
   margin: auto;
 }
 
+.works-section button:focus{
+  outline:0;
+}
+
+
 
 /* Contact */
 .contact-section{
   padding: 5rem 0 0 0;
-  height: 1400px;
+  height: 1250px;
   background-color: #fff;
 }
 
@@ -538,8 +543,19 @@ body {
   color: #000000;
  }
 
- .works-section button:focus{
+.contact-section #sendMessageButton{
+  background-color: #d4d4d4;
+  font-family: "roboto";
+  font-size: 20px;
+  color: #000000;
+  padding: 0px 10px 0px 10px;
   outline:0;
+  border: none;
+}
+
+.contact-section #sendMessageButton:hover{
+  background-color: #4d4d4d;
+  color: #fff;
 }
 
 /* Footer */
