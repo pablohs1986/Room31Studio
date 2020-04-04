@@ -153,6 +153,7 @@ body {
   height: 1px;
   margin-top: -3.3rem;
   margin-bottom: 4rem;
+  z-index: -1 !important;
 }
 
 /* Header */
@@ -171,7 +172,7 @@ body {
 
 .masthead img{
  height: 470px !important;
- margin-top: 80px;
+ margin-top: 95px;
  margin-bottom: 10px;
 
 }
@@ -182,6 +183,14 @@ body {
 
 .masthead .btn{
   margin-top: 40px;
+ }
+
+ .masthead h2{
+  font-family: "roboto";
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.0825em;
+
  }
 
  /* Arrow */
@@ -210,7 +219,7 @@ body {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 10px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
   margin-top: 100px !important;
 }
 
@@ -227,8 +236,8 @@ body {
   display: block;
   width: 20px;
   height: 20px;
-  border-bottom: 2px solid #000000;
-  border-right: 2px solid #000000;
+  border-bottom: 4px solid #000000;
+  border-right: 4px solid #000000;
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
@@ -282,8 +291,18 @@ body {
 /* Studio */
 .studio-section{
   padding: 5rem 0 0 0;
-  height: 900px;
+  height: 2100px;
   background-color:  #fff;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .studio-section h1{
@@ -306,9 +325,13 @@ body {
  }
 
  .studio-section p{
-  padding-top: 1rem;
   font-size: 20px;
   color: #000000;
+ }
+
+ .carousel-item p{
+  color: #ffffff;
+  text-shadow: 1px 2px 2px black;
  }
 
 /* Equipment */
@@ -380,7 +403,8 @@ body {
   font-size: 20px;
   color: #000000;
   text-transform: uppercase;
-  padding: 25px 0 10px 0;
+  padding: 0px 0 0px 0;
+
  }
  
  .services-section p{
@@ -391,10 +415,9 @@ body {
 
 
  /* Works */
-
 .works-section{
   padding: 5rem 0 0 0;
-  height: 1700px;
+  height: 3200px;
   background-color: #fff;
 }
 
@@ -409,6 +432,13 @@ body {
   text-align: left;
   text-transform: uppercase;
 }
+
+.contact-section h2{
+  font-family: "robotoBold";
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+ }
 
 .works-section i{
   color: #000000;
@@ -440,7 +470,7 @@ body {
 
 
   .works-section #gallery { 
-      background: #f9f9f9; 
+      background: #d4d4d4; 
   } 
 
   .works-section img { 
@@ -519,7 +549,9 @@ body {
   color: #000000;
  }
 
-
+ .works-section button:focus{
+  outline:0;
+}
 
 /* Footer */
 footer{
