@@ -219,7 +219,7 @@ body {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 80px 0px 0px 0px;
+  padding: 70px 0px 0px 0px;
   margin-top: 100px !important;
 }
 
@@ -433,13 +433,6 @@ body {
   text-transform: uppercase;
 }
 
-.contact-section h2{
-  font-family: "robotoBold";
-  font-size: 20px;
-  color: #000000;
-  text-transform: uppercase;
- }
-
 .works-section i{
   color: #000000;
   text-align: center;
@@ -507,10 +500,6 @@ body {
   margin: auto;
 }
 
-.works-section i:hover {
-  color: #000000;
-  opacity: 0.5;
-}
 
 /* Contact */
 .contact-section{
