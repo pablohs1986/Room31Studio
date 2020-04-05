@@ -84,7 +84,7 @@ li a:focus{
 }
 
 #mainNav a{
-  font-size: 46px;
+  font-size: 60px;
   letter-spacing: 0.0125em;
   padding: 0px 5px 0px 0px;
   color: #ffffff;
@@ -151,12 +151,21 @@ body {
   width: 100% !important;
   background-color: #000000;
   height: 1px;
-  margin-top: -6.25rem;
-  margin-bottom: 3rem;
+  margin-top: -3.3rem;
+  margin-bottom: 4rem;
   z-index: -1 !important;
 }
 
 /* Header */
+@media (max-width: 768px){
+  .masthead img{
+    height: 470px !important;
+    margin-top: 155px !important;
+    margin-bottom: 10px;
+   }
+}
+
+
 .masthead {
   position: relative;
   width: 100%;
@@ -171,8 +180,8 @@ body {
 }
 
 .masthead img{
- height: 300px !important;
- margin-top: 120px;
+ height: 470px !important;
+ margin-top: 95px;
  margin-bottom: 10px;
 }
 
@@ -266,13 +275,13 @@ body {
  /* About section */
  .about-section{
    padding: 5rem 0 0 0;
-   height: 1050px;
+   height: 800px;
    background-color: #fff;
  }
 
  .about-section h1{
   font-family: "robotoBold";
-  font-size: 75px;
+  font-size: 200px;
   font-weight: 900;
   letter-spacing: 0.01em;
 
@@ -283,14 +292,14 @@ body {
 }
 
 .about-section p{
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
 }
 
 /* Studio */
 .studio-section{
   padding: 5rem 0 0 0;
-  height: 2450px;
+  height: 2100px;
   background-color:  #fff;
 }
 
@@ -306,7 +315,7 @@ body {
 
 .studio-section h1{
   font-family: "robotoBold";
-  font-size: 75px;
+  font-size: 200px;
   font-weight: 900;
   letter-spacing: 0.01em;
 
@@ -318,18 +327,14 @@ body {
 
 .studio-section h2{
   font-family: "robotoBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   text-transform: uppercase;
  }
 
  .studio-section p{
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
- }
-
- .studio-section .col-sm-6{
-  background: #d4d4d4;
  }
 
  .carousel-item p{
@@ -341,13 +346,13 @@ body {
 
 .equipment-section{
   padding: 5rem 0 0 0;
-  height: 1200px;
+  height: 900px;
   background-color: #fff;
 }
 
 .equipment-section h1{
   font-family: "robotoBold";
-  font-size: 75px;
+  font-size: 200px;
   font-weight: 900;
   letter-spacing: 0.01em;
 
@@ -359,14 +364,14 @@ body {
 
 .equipment-section h2{
   font-family: "robotoBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   text-transform: uppercase;
   text-align: left;
  }
 
  .equipment-section li{
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   text-align: left;
  }
@@ -376,13 +381,13 @@ body {
 
 .services-section{
   padding: 5rem 0 0 0;
-  height: 1700px;
+  height: 900px;
   background-color: #fff;
 }
 
 .services-section h1{
   font-family: "robotoBold";
-  font-size: 75px;
+  font-size: 200px;
   font-weight: 900;
   letter-spacing: 0.01em;
 
@@ -397,17 +402,13 @@ body {
   text-align: center;
  }
 
-.services-section p{
-  background: #d4d4d4;
-}
-
 .services-section #mezcla{
   transform: rotate(90deg);
 }
 
 .services-section h2{
   font-family: "robotoBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   text-transform: uppercase;
   padding: 0px 0 0px 0;
@@ -416,8 +417,7 @@ body {
  
  .services-section p{
   padding-top: 1rem;
-  padding-left: 35px;
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
  }
 
@@ -425,13 +425,13 @@ body {
  /* Works */
 .works-section{
   padding: 5rem 0 0 0;
-  height: 8300px;
+  height: 3200px;
   background-color: #fff;
 }
 
 .works-section h1{
   font-family: "robotoBold";
-  font-size: 75px;
+  font-size: 200px;
   font-weight: 900;
   letter-spacing: 0.01em;
 
@@ -452,7 +452,7 @@ body {
 
 .works-section h2{
   font-family: "robotoBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   text-transform: uppercase;
   padding: 25px 0 10px 0;
@@ -460,7 +460,7 @@ body {
  
  .works-section p{
   padding-top: 1rem;
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
  }
 
@@ -517,7 +517,7 @@ body {
 /* Contact */
 .contact-section{
   padding: 5rem 0 0 0;
-  height: 1500px;
+  height: 1250px;
   background-color: #fff;
 }
 
@@ -528,7 +528,7 @@ body {
 
 .contact-section h1{
   font-family: "robotoBold";
-  font-size: 75px;
+  font-size: 200px;
   font-weight: 900;
   letter-spacing: 0.01em;
 
@@ -540,22 +540,22 @@ body {
 
 .contact-section h2{
   font-family: "robotoBold";
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   text-transform: uppercase;
  }
 
  .contact-section p, .contact-section a{
   font-family: "roboto";
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
  }
 
 .contact-section #sendMessageButton{
-  background-color: #4d4d4d;
+  background-color: #d4d4d4;
   font-family: "roboto";
-  font-size: 16px;
-  color: #fff;
+  font-size: 20px;
+  color: #000000;
   padding: 0px 10px 0px 10px;
   outline:0;
   border: none;
@@ -564,14 +564,6 @@ body {
 .contact-section #sendMessageButton:hover{
   background-color: #4d4d4d;
   color: #fff;
-}
-
-.contact-section .col-sm-8{
-  background: #d4d4d4;
-}
-
-.contact-section .col-sm-4{
-margin-bottom: 1.3rem;
 }
 
 /* Footer */
@@ -589,9 +581,6 @@ footer{
   line-height: 3rem;
   color:#000000;
   margin-top: 25px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
 
   margin-bottom: 0px;
   position: relative;
