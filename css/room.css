@@ -166,14 +166,14 @@ body {
   background-color: #000000;
   height: 1px;
   margin-top: -6.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   z-index: -1 !important;
 }
 
 @media (min-width: 992px) {
   .divider-white {
     margin-top: -3.3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 }
 
