@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top - 54)
+          scrollTop: (target.offset().top - 70)
         }, 1000, "easeInOutExpo");
         return false;
       }
@@ -23,33 +23,22 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 56
+    offset: 100
   });
-
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
 
+// Collapse Navbar
 
+window.onscroll = function() {scrollFunction()};
 
-function expand() {
-  var x = document.getElementById("navbarResponsive");
-  if(navbarResponsive.style.display == "block") { // if is menuBox displayed, hide it
-    navbarResponsive.style.display = "none";
-  }
-  else { // if is menuBox hidden, display it
-    navbarResponsive.style.display = "block";
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("mainNav").style.padding = "0px 0px";
+    document.getElementById("navbar-brand").style.fontSize = "25px";
+  } else {
+    document.getElementById("mainNav").style.padding = "10px 10px";
+    document.getElementById("navbar-brand").style.fontSize = "35px";
   }
 }
 

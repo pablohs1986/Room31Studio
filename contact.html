@@ -67,9 +67,6 @@
   </div>
 </nav>
 
-
-
-
   <!-- Contact --> 
   <section class="contact-section" id="contact">
     <div class="container h-100 mx-auto text-center animated fadeIn">
@@ -93,35 +90,27 @@
           </p>
         </div>
         <div class="col-sm-8 text-center">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="sentMessage" data-toggle="validator">
             <div class="row">
               <div class="col-sm-12">
                  <h2 class="mb-3 mt-3">Formulario de contacto</h2>
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor, introduce tu nombre.">
-                  <p class="help-block text-danger"></p>
+                  <input class="form-control" id="name" type="text" placeholder="Nombre *" required/>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor, introduce tu email.">
-                  <p class="help-block text-danger"></p>
+                  <input class="form-control" id="email" type="email" placeholder="Email *" required/>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Por favor, introduce tu número de teléfono">
-                  <p class="help-block text-danger"></p>
+                  <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required/>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Tu mensaje *" required="required" data-validation-required-message="Por favor, introduce tu mensaje"></textarea>
-                  <p class="help-block text-danger"></p>
+                  <textarea class="form-control" id="message" placeholder="Tu mensaje *" required></textarea>
                 </div>
                 <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="legalCheck" required="required">
-                  <label class="form-check-label" for="legalCheck">He leído y estoy de acuerdo con las condiciones legales</label>
+                  <input type="checkbox" class="form-check-input" id="legalCheck" required/>
+                  <label class="form-check-label">He leído y estoy de acuerdo con las condiciones legales</label>
                 </div>
-                <div class="clearfix"></div>
-                <div class="col-sm-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase mb-3" type="submit">Enviar</button>
-                </div>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase mb-3" type="submit">Enviar</button>
               </div>
             </div>
           </form>
@@ -155,10 +144,6 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/room.js"></script>
