@@ -69,6 +69,7 @@ h1 {
   font-size: 21px;
   width: 125px;
   margin-top: -4px !important;
+  padding-left: 15px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -134,8 +135,6 @@ li a:focus{
   text-decoration: none;
   color: #4d4d4d;
 }
-
-
 
 @media (min-width: 768px) {
   #mainNav a{
